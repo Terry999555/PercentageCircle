@@ -12,7 +12,8 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 
-import com.cyy.user.percentagecircle.R;
+import com.cyy.user.percentagecirclelibrary.R;
+
 
 /**
  * Created by ${Terry}
