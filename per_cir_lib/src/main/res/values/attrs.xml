@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="PercentageCircle">
+        <!--被选中的文字的颜色-->
+        <attr name="select_color" format="color"/>
+        <!--没有被选中的文字的颜色-->
+        <attr name="unselect_color" format="color"/>
+        <!--数量单位的文字的颜色-->
+        <attr name="unit_color" format="color"/>
+        <!--数量文字的颜色-->
+        <attr name="num_color" format="color"/>
+
+
+        <!--数量单位的文字-->
+        <attr name="unit_text" format="string"/>
+        <!--数量的字体size大小-->
+        <attr name="num_text" format="string"/>
+
+        <!--数量单位的文字-->
+        <attr name="unit_text_size" format="dimension"/>
+        <!--数量的字体size大小-->
+        <attr name="num_text_size" format="dimension"/>
+
+        <!--总数目的直线的条数-->
+        <attr name="all_line_num" format="integer"/>
+        
+        <!--间隔的角度的大小-->
+        <!--<attr name="interval_degree" format="integer"/>-->
+        
+        <!--直线的宽度的大小-->
+        <attr name="line_width" format="dimension"/>
+
+        <!--直线的长度-->
+        <attr name="line_length" format="dimension"/>
+        
+        
+        
+        
+        
+    </declare-styleable>
+</resources>
