@@ -58,9 +58,9 @@ public class PercentageCircle extends View {
     private int mSelectLine = 0;
 
     //设置控件的单位
-    private String mUnit = "--";
+    private String mUnit;
     //设置控件的单位
-    private String mNumShow = "--";
+    private String mNumShow;
 
 
     //设置字体的范围
@@ -161,9 +161,13 @@ public class PercentageCircle extends View {
             mPaint.setTextSize(mNumTextSize);
             mPaint.getTextBounds(mNumShow, 0, mNumShow.length(), mNumShowRect);
         }
-        canvas.drawText(mNumShow, (getWidth() / 2 - mNumShowRect.width() / 2), (getHeight() / 2 + mNumShowRect.height() / 2)
-                , mPaint);
-        Log.i("111", (getWidth() / 2 - mNumShowRect.width() / 2) + "===" + (getHeight() / 2 + mNumShowRect.height() / 2));
+        if(!TextUtils.isEmpty(mNumShow)){
+            canvas.drawText(mNumShow, (getWidth() / 2 - mNumShowRect.width() / 2), (getHeight() / 2 + mNumShowRect.height() / 2)
+                    , mPaint);
+        }
+//        canvas.drawText(mNumShow, (getWidth() / 2 - mNumShowRect.width() / 2), (getHeight() / 2 + mNumShowRect.height() / 2)
+//                , mPaint);
+        Log.i("111",mNumShow +"---"+ (getWidth() / 2 - mNumShowRect.width() / 2) + "===" + (getHeight() / 2 + mNumShowRect.height() / 2));
 
         //设置单位字体的颜色。
         mPaint.setColor(mUnitColor);
@@ -171,8 +175,11 @@ public class PercentageCircle extends View {
             mPaint.setTextSize(mUnitTextSize);
             mPaint.getTextBounds(mUnit, 0, mUnit.length(), mUnitRect);
         }
-        canvas.drawText(mUnit, getWidth() / 2 - mUnitRect.width() / 2, getHeight() / 2 + mNumShowRect.height() / 2
-                + mUnitRect.height() / 2 + dp2px(20), mPaint);
+        if(!TextUtils.isEmpty(mUnit)){
+            canvas.drawText(mUnit, getWidth() / 2 - mUnitRect.width() / 2, getHeight() / 2 + mNumShowRect.height() / 2
+                    + mUnitRect.height() / 2 + dp2px(20), mPaint);
+        }
+
 
         canvas.restore();
     }

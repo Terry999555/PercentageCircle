@@ -11,12 +11,12 @@
         android:id="@+id/sample_percent_circle"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        app:num_text="30"
+        app:unit_text="门"
         android:layout_centerInParent="true"
         app:num_color="@color/colorAccent"
-        app:num_text="40"
         app:select_color="@color/colorPrimary"
         app:unit_color="@color/colorAccent"
-        app:unit_text="啊哈哈"
         app:unselect_color="#ffff00" />
 
 </RelativeLayout>

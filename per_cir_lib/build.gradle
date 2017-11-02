@@ -37,7 +37,7 @@ android {
     apply plugin: 'com.novoda.bintray-release'
 
     publish {
-        userOrg = '999555yun'    //注册时候的用户名。不是登陆的用户名字不是terry999555
+        userOrg = 'cyy999555yun'    //注册时候的用户名。不是登陆的用户名字不是terry999555
         groupId = 'com.cyy'//   //compile引用时的第1部分
         artifactId = 'PercentageCircle'////发布到JCenter上的项目名字，compile引用时的第2部分项目名
         publishVersion = '1.0.1'//版本号 ，compile引用时的最后部分，下次更新是只需要更改版本号即可
