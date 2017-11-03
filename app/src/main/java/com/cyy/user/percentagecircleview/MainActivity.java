@@ -26,10 +26,9 @@ public class MainActivity extends AppCompatActivity {
          * 2：动态设置的会把 xml中设置的 数量和文字覆盖掉。
          */
         //设置显示的数量。
-//        percentageCircle.setNumShow(30+"");
+        percentageCircle.setNumShow(60+"");
         //设置单位文字
-//        percentageCircle.setUnit("口数");
-        //可以动态设置属性.会覆盖xml中设置的属性。
+        percentageCircle.setUnit("口数");
         percentageCircle.setUnSelectColor(Color.BLACK);
         percentageCircle.setSelectColor(Color.RED);
         percentageCircle.setUnitColor(Color.GREEN);

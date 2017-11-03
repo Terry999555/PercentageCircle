@@ -25,7 +25,7 @@
 
 2. **再次开发**
 * 项目在Github上开源: https://github.com/Terry999555/PercentageCircle.git
-* 详细讲解见博客:
+* 详细讲解见博客:  http://www.jianshu.com/p/bdccd0894d67
 可以在基础上更改自己的想要的效果。
 
 #### 具体使用
@@ -33,6 +33,6 @@ Gradle 引入依赖
 * 在项目中的 build.Gradle
 ``` ruby
 dependencies {
-    compile ''
+    compile 'com.cyy:PercentageCircle:1.0.2'
 }
 ```

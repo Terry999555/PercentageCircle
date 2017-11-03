@@ -34,9 +34,5 @@
         <!--直线的长度-->
         <attr name="line_length" format="dimension"/>
         
-        
-        
-        
-        
     </declare-styleable>
 </resources>

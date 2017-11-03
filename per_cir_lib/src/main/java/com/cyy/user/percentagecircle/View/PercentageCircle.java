@@ -16,7 +16,7 @@ import com.cyy.user.percentagecirclelibrary.R;
 
 
 /**
- * Created by ${Terry}
+ * Created by ${到了我的周末}
  * on 2017-11-01.
  */
 
